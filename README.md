@@ -1,4 +1,4 @@
-# Drug-rating-prediction
+# Drug Rating Prediction
 
 ## Data
 Data from kaggle. columns 213868 and rows 7
