@@ -30,14 +30,15 @@ Here we look at the factors and do some factor engineering steps
 #### 3. Modelling
 **Bi-Directional LSTM**: I have read in various blogs that LSTM is the go to model for NLP, so my first model for this was Bi-Directional LSTM. Unfortunately it didn't quite live up to the hype, or may be i needed to spend a bit more time tuning the hyper parameters. Anyways here is the chart of my model.
 
-
+<img src="/images/Bi_Directional_LSTM.png"  width="400" height="400">
 
 **Conv-1D**: The next model i created was a Convolutional model. These are more popoular with computer vision and image analysis but I got a better result with Conv-1D for NLP than Bi-Directional LSTM. Also for this dataset this model was extremely fast, so i was able to tune this better.
 
+<img src="/images/Conv1D.png"  width="400" height="450">
 
 **Conv1D+LSTM:** After I realized how Conv1D was getting better results compared to Bi-Directional LSTM, i created a new model that had both Conv1D layer feeding LSTM. This is the best model i could come up for this project.
 
-
+<img src="/images/Conv1d_LSTM.png"  width="400" height="500">
 
 #### 4. Final Result
 Based on the various models, the best performing model is **Conv1D+LSTM**.
