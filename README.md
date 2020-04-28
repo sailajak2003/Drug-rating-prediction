@@ -41,8 +41,7 @@ This data has more than 215,000 rows and 7 columns. Other than "Rating" our targ
            
 #### 3. Feature Engineering 
  
-Here i looked at the reviews column and did some Tokenizing,stop word removal,sequene to vector and padding.
-
+Here I looked at the reviews and did  Tokenizing, stop word removal, sequence to vector, and padding.
 
 Word cloud show some of the commonly used words in the dataset.
 
@@ -64,4 +63,5 @@ Word cloud show some of the commonly used words in the dataset.
 <img src="/images/Conv1d_LSTM.png"  width="400" height="500">
 
 #### 4. Final Result
-Based on the various models, the best performing model is **Conv1D+LSTM**.
+Based on the various models, the best performing model is **Conv1D+LSTM**.With a Test score of 1.64 and Test accuracy of 0.62
+
