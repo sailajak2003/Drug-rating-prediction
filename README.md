@@ -16,7 +16,7 @@ This data has more than 215,000 rows and 7 columns. Other than "Rating" our targ
 
 #### 2.EDA
 
-#### Most of the rating are 8 and higher.Denser at ends.
+#### Most of the ratings are 8 and higher. Denser at ends
 
 ![Image description](https://github.com/sailajakarra/Drug-rating-prediction/blob/master/images/download.png)
 
